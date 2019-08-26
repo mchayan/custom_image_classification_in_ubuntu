@@ -23,9 +23,8 @@ Tensorflow Object Detection API depends on the following libraries:
 *   contextlib2
 *   cocoapi
 
-For detailed steps to install Tensorflow, follow the [Tensorflow installation
-instructions](https://www.tensorflow.org/install/). A typical user can install
-Tensorflow using one of the following commands:
+
+Open the terminal and write these command bellow.
 
 ``` bash
 # For CPU
@@ -33,25 +32,25 @@ pip install tensorflow
 # For GPU
 pip install tensorflow-gpu
 ```
+  
+Install dependencies using pip:
 
-The remaining libraries can be installed on Ubuntu 16.04 using via apt-get:
+``` bash
+pip install contextlib2
+pip install pillow
+pip install lxml
+pip install jupyter
+pip install matplotlib
+```
+
+All the required dependencies are easy to install except protoc. To install protoc type the command bellow.
 
 ``` bash
 sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
-pip install --user Cython
-pip install --user contextlib2
-pip install --user jupyter
-pip install --user matplotlib
 ```
 
-Alternatively, users can install dependencies using pip:
+As all the depedecies installation is done, it's time to check the configuration is done or not. To verify please download the office Tensorflow-model from- 
 
 ``` bash
-pip install --user Cython
-pip install --user contextlib2
-pip install --user pillow
-pip install --user lxml
-pip install --user jupyter
-pip install --user matplotlib
+git clone https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md.git
 ```
-
