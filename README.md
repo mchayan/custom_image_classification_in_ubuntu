@@ -52,5 +52,5 @@ sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
 As all the depedecies installation is done, it's time to check the configuration is done or not. To verify please download the office Tensorflow-model from- 
 
 ``` bash
-git clone https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md.git
+git clone https://github.com/tensorflow/models.git
 ```
