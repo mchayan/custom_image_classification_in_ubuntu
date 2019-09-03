@@ -92,6 +92,15 @@ Now run the python file xml_csv.py. The code is available in object-detection Fo
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/4.jpeg">
 
+Now go to research directory and type the command-
 
+``` bash
+python3 setup.py install
+```
 
+It's time to generate .record files. 
+
+``` bash
+python  generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record
+```
 
