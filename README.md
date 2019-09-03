@@ -61,7 +61,7 @@ protoc object_detection/protos/*.proto –python_out=.
 ```
 
 like this-
-  <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/1.jpeg">
+  <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/1.jpg">
   
 Now type this comand to give python path in both research and models directory otherwise you will get error.
 
