@@ -79,3 +79,5 @@ You will see object_detection_tutorial.ipnyb  file in your browser.
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/2.png">
   
 Click run-all and you will see output like this 
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/3.png">
