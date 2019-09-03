@@ -54,3 +54,4 @@ As all the depedecies installation is done, it's time to check the configuration
 ``` bash
 git clone https://github.com/tensorflow/models.git
 ```
+  <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/1.jpeg">
