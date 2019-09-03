@@ -101,6 +101,6 @@ python3 setup.py install
 It's time to generate .record files. 
 
 ``` bash
-python  generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record
+python generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record --image_dir=./images 
 ```
 
