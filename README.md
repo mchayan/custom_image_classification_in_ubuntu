@@ -74,3 +74,7 @@ If everything is perfectly done you will be able to detect object using tensorfl
 ``` bash
 jupyter notebook
 ```
+You will see object_detection_tutorial.ipnyb  file in your browser.
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/2.png">
+  
