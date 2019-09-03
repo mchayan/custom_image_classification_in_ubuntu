@@ -68,3 +68,9 @@ Now type this comand to give python path in both research and models directory o
 ``` bash
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 ```
+
+If everything is perfectly done you will be able to detect object using tensorflow's pre trained model. Type the command below
+
+``` bash
+jupyter notebook
+```
