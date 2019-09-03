@@ -81,3 +81,7 @@ You will see object_detection_tutorial.ipnyb  file in your browser.
 Click run-all and you will see output like this 
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/3.png">
+
+As it's all done it's time to develop custom object detection
+
+First you need to collect your dataset. Then annotate the images using [Image Labeling Software Like- labelimg](https://github.com/tzutalin/labelImg).
