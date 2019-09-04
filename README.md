@@ -213,3 +213,8 @@ tensorboard --logdir='training'
 ```
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/10.png">
+
+You are going to see the certain amount of loss rate. For training the model perfectly the loss rate should be <0.05. Your loss rate will gradually decrease and  If your loss rate is <0.05 you can stop teh training process. After the training it is time to generate frozen_inference_graph (.pb) file that you will be using to detect objects.
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/11.jpg">
+
