@@ -259,7 +259,7 @@ Inside Detection Code Section provide the range of test image (1, number) #Here 
 You have to keep all the test images in object_detection/test_images directory.
 
 
-
+Hurray! You have successfully Created your own custom object detector.
 
 
 
