@@ -211,3 +211,5 @@ Now you can also see the process in the tensorboard. Just open another terminal 
 ``` bash
 tensorboard --logdir='training'
 ```
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/10.png">
