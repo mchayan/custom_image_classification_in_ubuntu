@@ -131,9 +131,9 @@ Now point to the following lines
 
 train_input_reader: {
 tf_record_input_reader {
-input_path: "PATH_TO_BE_CONFIGURED/pet_faces_train.record-?????-of-00010"
+input_path: "data/train.record"
 }
-label_map_path: "PATH_TO_BE_CONFIGURED/pet_label_map.pbtxt"
+label_map_path: "PATH_TO_BE_CONFIGURED/object-detection.pbtxt"
 }
 
 
