@@ -197,5 +197,5 @@ Now copy the directories images, data, training and ssd_mobilenet_v1_coco_11_06_
 Not it's time to train. Set the python directory in both research and object_detection diectory each time you counter any error. Now run the command 
 
 ``` bash
-python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+python3 legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
 ```
