@@ -245,9 +245,18 @@ Now open jupyter notebook to see the output
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/16.jpeg">
 
-From Jupyter Notebook open object_detection_tutorial.ipnyb file and here you have to do some customization.
+From Jupyter Notebook open object_detection_tutorial.ipnyb file and here you have to do some customization. 
+
+Change the MODEL_NAME, PATH_TO_FROZEN_GRAPH & PATH_TO_LABELS. Also delete Download Model section Code.
+
+Inside Detection Code Section provide the range of test image (1, number) #Here number is equal to total number of test images + 1
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/17.jpeg">
+
+
+
+
+
 
 
 
