@@ -144,4 +144,28 @@ input_path: "data/train.record"
 label_map_path: "training/object-detection.pbtxt"
 }
 
+Now Point to the next lines of the code as below
 
+tf_record_input_reader {
+input_path: "PATH_TO_BE_CONFIGURED/pet_faces_val.record-?????-of-00010"
+}
+label_map_path: "PATH_TO_BE_CONFIGURED/pet_label_map.pbtxt"
+
+Replace this with the following code
+
+tf_record_input_reader {
+input_path: "data/test.record"
+}
+label_map_path: "training/object-detection.pbtxt"
+
+Now please create a file object-detection.pbtxt inside the directory training which we have created and write the following lines in ititem.
+
+item {
+  id: 1
+  name: 'Unknown Person'
+}
+
+item {
+  id: 2
+  name: 'Known Person'
+}
