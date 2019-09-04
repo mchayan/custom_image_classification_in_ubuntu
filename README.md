@@ -108,6 +108,7 @@ python generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data
 python generate_tfrecord.py --csv_input=data/test_labels.csv --output_path=data/test.record --image_dir=./images 
 ```
 
+These will create .record files in data directory.
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/5.jpeg">
 
 
