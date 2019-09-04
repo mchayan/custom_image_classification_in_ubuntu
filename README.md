@@ -116,50 +116,65 @@ Now it's time to customize the model. There are many models which can be downloa
 
 We have to make some changes in the file ssd_mobilenet_v1_pets.config . Please open it with any text editor and set the number of the classes = what ever you have labelled.
 
+``` bash
 model {
 ssd {
 num_classes: 2 # we have used two classes so the num classes is 2.  
-
+```
 GO to line where you find this code
 
+``` bash
 fine_tune_checkpoint: "PATH_TO_BE_CONFIGURED/model.ckpt"
-
+```
 change this line to
 
+``` bash
 fine_tune_checkpoint: "ssd_mobilenet_v1_coco_11_06_2017/model.ckpt" #replace PATH_TO_BE_CONFIGURED with the name of the model you have downloaded.
+```
+
 Now point to the following lines
 
+``` bash
 train_input_reader: {
 tf_record_input_reader {
 input_path: "PATH_TO_BE_CONFIGURED/pet_faces_train.record-?????-of-00010"
 }
 label_map_path: "PATH_TO_BE_CONFIGURED/pet_label_map.pbtxt"
 }
+```
+
 Replace these lines with the following lines
 
+``` bash
 train_input_reader: {
 tf_record_input_reader {
 input_path: "data/train.record"
 }
 label_map_path: "training/object-detection.pbtxt"
 }
+```
 
 Now Point to the next lines of the code as below
 
+``` bash
 tf_record_input_reader {
 input_path: "PATH_TO_BE_CONFIGURED/pet_faces_val.record-?????-of-00010"
 }
 label_map_path: "PATH_TO_BE_CONFIGURED/pet_label_map.pbtxt"
+```
 
 Replace this with the following code
 
+``` bash
 tf_record_input_reader {
 input_path: "data/test.record"
 }
 label_map_path: "training/object-detection.pbtxt"
+```
 
-Now please create a file object-detection.pbtxt inside the directory training which we have created and write the following lines in ititem.
+Now please create a file object-detection.pbtxt inside the directory training which we have created and write the following lines-
 
+``` bash
 item {
   id: 1
   name: 'Unknown Person'
@@ -169,3 +184,4 @@ item {
   id: 2
   name: 'Known Person'
 }
+```
