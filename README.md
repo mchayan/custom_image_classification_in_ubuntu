@@ -239,3 +239,6 @@ Now you will find a folder named known_unknown_person_graph in object_detection 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/14.jpeg">
 
 
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/15.jpeg">
+
+
