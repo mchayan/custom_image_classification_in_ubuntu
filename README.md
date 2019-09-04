@@ -112,7 +112,9 @@ These will create .record files in data directory.
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/5.jpeg">
 
-Now it's time to customize the model. There are many models which can be downloaded. Please visit the link [tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) to download the model you want. We are going to download the ssd_mobilenet_v1_coco_11_06_2017 model  and [ssd_mobilenet_v1_pets.config](https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v1_pets.config).
+Now it's time to customize the model. There are many models which can be downloaded. Please visit the link [tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) to download the model you want. We are going to download the ssd_mobilenet_v1_coco_11_06_2017 model  and [ssd_mobilenet_v1_pets.config]
+(https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v1_pets.config).
+You have to keep the file inside training folder after customization.
 
 We have to make some changes in the file ssd_mobilenet_v1_pets.config . Please open it with any text editor and set the number of the classes = what ever you have labelled.
 
@@ -192,4 +194,8 @@ Now copy the directories images, data, training and ssd_mobilenet_v1_coco_11_06_
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/7.jpeg">
 
+Not it's time to train. Set the python directory in both research and object_detection diectory each time you counter any error. Now run the command 
 
+``` bash
+python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+```
