@@ -98,6 +98,13 @@ Now go to research directory and type the command-
 python3 setup.py install
 ```
 
+It's time to generate .record files. Go to object-detection directory and run the python file generate_tfrecord.py for both test and train images.
+
+``` bash
+python generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record --image_dir=./images 
+```
+
+
 
 
  
