@@ -103,6 +103,11 @@ It's time to generate .record files. Go to object-detection directory and run th
 ``` bash
 python generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record --image_dir=./images 
 ```
+``` bash
+python generate_tfrecord.py --csv_input=data/test_labels.csv --output_path=data/test.record --image_dir=./images 
+```
+
+These will create .record files in data directory.
 
 
 
