@@ -205,6 +205,13 @@ python3 legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_pa
 ```
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/9.jpeg">
 
+Now you can also see the process in the tensorboard. Just open another terminal and issue the below command in the directory models/reseach/object_detection
+
+``` bash
+tensorboard --logdir='training'
+```
+
+
 
 
 
