@@ -194,6 +194,12 @@ Now copy the directories images, data, training and ssd_mobilenet_v1_coco_11_06_
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/7.jpeg">
 
 
+Not it's time to train. Set the python directory in both research and object_detection diectory each time you encounter any error. 
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/8.jpeg">
+
+
+
 
 
 
