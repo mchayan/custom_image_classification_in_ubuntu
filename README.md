@@ -135,6 +135,18 @@ change this line to
 fine_tune_checkpoint: "ssd_mobilenet_v1_coco_11_06_2017/model.ckpt" #replace PATH_TO_BE_CONFIGURED with the name of the model you have downloaded.
 ```
 
+Now point to the following lines
+
+``` bash
+train_input_reader: {
+tf_record_input_reader {
+input_path: "PATH_TO_BE_CONFIGURED/pet_faces_train.record-?????-of-00010"
+}
+label_map_path: "PATH_TO_BE_CONFIGURED/pet_label_map.pbtxt"
+}
+```
+
+
 
 
 
