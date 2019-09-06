@@ -258,6 +258,14 @@ Inside Detection Code Section provide the range of test image (1, number) #Here 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/18.jpeg">
 
 
+You have to keep all the test images in object_detection/test_images directory.
+
+
+Hurray! You have successfully Created your own custom object detector.
+
+
+
+
 
 
 
