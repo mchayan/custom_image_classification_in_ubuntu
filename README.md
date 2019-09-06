@@ -114,6 +114,17 @@ These will create .record files in data directory.
 Now it's time to customize the model. There are many models which can be downloaded. Please visit the link [tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) to download the model you want. We are going to download the ssd_mobilenet_v1_coco_11_06_2017 model  and [ssd_mobilenet_v1_pets.config]
 (https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v1_pets.config).
 
+You have to keep the file inside training folder after customization.
+
+We have to make some changes in the file ssd_mobilenet_v1_pets.config . Please open it with any text editor and set the number of the classes = what ever you have labelled.
+
+``` bash
+model {
+ssd {
+num_classes: 2 # we have used two classes so the num classes is 2.  
+```
+
+
 
 
 
