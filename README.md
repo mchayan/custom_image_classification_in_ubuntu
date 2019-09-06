@@ -187,6 +187,12 @@ item {
 }
 ```
 
+Now copy the directories images, data, training and ssd_mobilenet_v1_coco_11_06_2017 inside the directory models/research/object_detection
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/6.jpeg">
+
+
+
 
 
 
