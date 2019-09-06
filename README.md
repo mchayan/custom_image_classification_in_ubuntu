@@ -172,6 +172,20 @@ input_path: "data/test.record"
 }
 label_map_path: "training/object-detection.pbtxt"
 ```
+Now please create a file object-detection.pbtxt inside the directory training which we have created and write the following lines-
+
+``` bash
+# As we have two classes we have included two items in object-detection.pbtxt
+item {
+  id: 1
+  name: 'Unknown Person'
+}
+
+item {
+  id: 2
+  name: 'Known Person'
+}
+```
 
 
 
