@@ -221,6 +221,17 @@ Now you have to run this python file. But before that you have to check some arg
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/12.jpeg">
 
+Now run this command from the object_detection directory to generate frozen_inference_graph (.pb) file.
+
+``` bash
+python3 export_inference_graph.py \
+    --input_type image_tensor \
+    --pipeline_config_path training/ssd_mobilenet_v1_pets.config \
+    --trained_checkpoint_prefix training/model.ckpt-200000 \
+    --output_directory known_unknown_person_graph
+```
+
+
 
 
 
