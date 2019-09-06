@@ -111,6 +111,10 @@ These will create .record files in data directory.
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/5.jpeg">
 
+Now it's time to customize the model. There are many models which can be downloaded. Please visit the link [tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) to download the model you want. We are going to download the ssd_mobilenet_v1_coco_11_06_2017 model  and [ssd_mobilenet_v1_pets.config]
+(https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v1_pets.config).
+
+
 
 
 
