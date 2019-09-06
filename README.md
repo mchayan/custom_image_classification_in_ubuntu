@@ -82,6 +82,17 @@ Click run-all and you will see output like this
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/3.png">
 
+As it's all done it's time to develop custom object detection
+
+First you need to collect your dataset. Then annotate the images using [Image Labeling Software Like- labelImg](https://github.com/tzutalin/labelImg).
+After creating .xml (Annotated File) now it's time to convert the xml files to csv. Create a folder named object-detection. Create folders named data, images, training under object-detection folder.
+Create another two folders named test and train inside images folder. Copy all your .xml and image files inside images folder. Copy 80% of your images + perspectiv .xml to train directory and rest of the 20% images + perspectiv .xml in test directory.  
+
+Now run the python file xml_csv.py. The code is available in object-detection Folder.
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/4.jpeg">
+
+
  
 
 
