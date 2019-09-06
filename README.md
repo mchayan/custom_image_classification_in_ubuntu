@@ -231,6 +231,9 @@ python3 export_inference_graph.py \
     --output_directory known_unknown_person_graph
 ```
 
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/13.jpeg">
+
+Now you will find a folder named known_unknown_person_graph in object_detection directory containing all the files required to run your own custom object detector.
 
 
 
