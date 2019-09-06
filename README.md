@@ -217,6 +217,11 @@ You are going to see the certain amount of loss rate. For training the model per
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/11.JPG">
 
+Now you have to run this python file. But before that you have to check some arguments. Go to the research/object_detection/training and you will see several checkpoint files in the directory if your training is successfull. Take largest number of checpoint available in your training directory (All the three files should contain same number).
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/12.jpeg">
+
+
 
 
 
