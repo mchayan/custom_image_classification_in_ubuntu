@@ -198,6 +198,14 @@ Not it's time to train. Set the python directory in both research and object_det
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/8.jpeg">
 
+Now run the command 
+
+``` bash
+python3 legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+```
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/9.jpeg">
+
+
 
 
 
