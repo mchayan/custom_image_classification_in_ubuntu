@@ -253,6 +253,11 @@ Change the MODEL_NAME, PATH_TO_FROZEN_GRAPH & PATH_TO_LABELS. Also delete Downlo
 
 <img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/17.jpeg">
 
+Inside Detection Code Section provide the range of test image (1, number) #Here number is equal to total number of test images +1
+
+<img src="https://github.com/mchayan/custom_image_classification_in_ubuntu/blob/master/documentation/18.jpeg">
+
+
 
 
 
