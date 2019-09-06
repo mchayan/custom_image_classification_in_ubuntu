@@ -124,6 +124,18 @@ ssd {
 num_classes: 2 # we have used two classes so the num classes is 2.  
 ```
 
+GO to line where you find this code
+
+``` bash
+fine_tune_checkpoint: "PATH_TO_BE_CONFIGURED/model.ckpt"
+```
+change this line to
+
+``` bash
+fine_tune_checkpoint: "ssd_mobilenet_v1_coco_11_06_2017/model.ckpt" #replace PATH_TO_BE_CONFIGURED with the name of the model you have downloaded.
+```
+
+
 
 
 
